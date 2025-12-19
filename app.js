@@ -41,7 +41,7 @@ function renderProducts(products) {
         <li>
         ${p.name} - ${p.price} (stock: ${p.stock})
         </li>
-        `)
+        `).join('')
 }
 
 app.get('/',(req,res) => {
